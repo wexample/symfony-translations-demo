@@ -7,5 +7,29 @@
     "psr-4": {
       "Wexample\\SymfonyTranslationsDemo\\": "src/"
     }
+  },
+  "description": "Demo of wexample/symfony-translations: localized urls, interface and entity content translation",
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-content": "*",
+    "wexample/symfony-design-system": "*",
+    "wexample/symfony-helpers": "*",
+    "wexample/symfony-loader": "*",
+    "wexample/symfony-translations": "*",
+    "wexample/symfony-translations-ds": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
+    }
   }
 }
