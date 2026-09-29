@@ -1,0 +1,14 @@
+page_title: Übersetzungen
+page_icon: 'ph:bold/translate'
+intro: 'Diese Seite wird in der Sprache ihrer URL bereitgestellt. Ihre Formulierungen stammen aus den yml-Dateien, die mit translations:translate-files übersetzt wurden; die Artikel unten sind Entitäten, deren #[Translatable] Felder beim ersten Lesen übersetzt und gespeichert werden.'
+locale:
+  current: 'Aktuelle Sprache'
+  source: 'Inhalt verfasst in'
+column:
+  field: Feld
+  source: Quelle
+  translated: 'In dieser Sprache lesen'
+field:
+  title: Titel
+  summary: Zusammenfassung
+switcher: 'Sprache wechseln'

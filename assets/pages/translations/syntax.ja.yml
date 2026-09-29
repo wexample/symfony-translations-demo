@@ -1,0 +1,24 @@
+page_title: 翻訳構文
+page_icon: 'ph:bold/brackets-curly'
+cache:
+  title: キャッシュ
+  body: 翻訳ファイルは解決され、パフォーマンスを維持するためにキャッシュされます。
+domains:
+  title: 翻訳ドメイン
+  body: ショートカットを使用すると、特定のコンテキストに関連する翻訳にアクセスできます。
+  context:
+    layout: レイアウトに関連（HTMLメタタグとメインページフレーム）
+    page: ページに関連（ページ本文やモーダルなど）
+extends:
+  title: 拡張
+  body: |
+    ファイル内のほとんどのキーが他のファイルと同じである場合は、<b>~extends</b> 構文を使用してすべてのキーを再利用し、新しいキーのみを追加する方が簡単です。
+includes:
+  title: インクルージョン
+  body: |
+    翻訳ファイル内の重複テキストを減らすことが重要です。マジックキーを使用すると、内部構文 <b>@folder.file::key.sub_key</b> を使用して、一つのファイルから別のファイルにインクルージョンできます。<br><br> キーまたはキーのツリーが同じであれば、<b>%</b> キーワードと組み合わせることができます。
+javascript:
+  title: Javascript
+  body: 翻訳をJavascriptに渡して動的に使用できます。
+  demo_text: こんにちはJavascript！
+  test_button: ここでテスト

@@ -1,0 +1,14 @@
+page_title: Переводы
+page_icon: 'ph:bold/translate'
+intro: 'Эта страница отображается на языке, указанном в её URL. Её текст взят из yml файлов, переведённых с помощью translations:translate-files; статьи ниже - это сущности, поля которых #[Translatable] переводятся при первом чтении и сохраняются.'
+locale:
+  current: 'Текущий язык'
+  source: 'Содержимое написано на'
+column:
+  field: Поле
+  source: 'Исходный текст'
+  translated: 'Читать на этом языке'
+field:
+  title: Заголовок
+  summary: Резюме
+switcher: 'Сменить язык'

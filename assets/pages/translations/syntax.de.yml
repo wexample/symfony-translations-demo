@@ -1,0 +1,24 @@
+page_title: Übersetzungssyntax
+page_icon: 'ph:bold/brackets-curly'
+cache:
+  title: Caching
+  body: 'Übersetzungsdateien werden aufgelöst und zwischengespeichert, um die Leistung zu erhalten.'
+domains:
+  title: Übersetzungsdomänen
+  body: 'Abkürzungen ermöglichen den Zugriff auf Übersetzungen in bestimmten Kontexten.'
+  context:
+    layout: 'In Bezug auf das Layout (HTML-Meta-Tags und Hauptseitenrahmen)'
+    page: 'In Bezug auf die Seite (Seiteninhalt oder Modal beispielsweise)'
+extends:
+  title: Erweiterungen
+  body: |
+    Wenn die meisten Schlüssel in einer Datei denselben wie in einer anderen entsprechen, ist es einfacher, die <b>~extends</b> Syntax zu verwenden, um alle Schlüssel wiederzuverwenden und nur die neuen hinzuzufügen.
+includes:
+  title: Inklusionen
+  body: |
+    Es ist wichtig, duplizierten Text in einer Übersetzungsdatei zu reduzieren. Magische Schlüssel ermöglichen Inklusionen von einer Datei in eine andere unter Verwendung der internen Syntax <b>@folder.file::key.sub_key</b>. <br><br>Sie können dies mit dem <b>%</b> Schlüsselwort kombinieren, wenn der Schlüssel oder der Schlüsselbaum derselbe ist.
+javascript:
+  title: Javascript
+  body: 'Übersetzungen können für die dynamische Verwendung an Javascript übergeben werden.'
+  demo_text: 'Hallo Javascript!'
+  test_button: 'Hier testen'

@@ -1,0 +1,24 @@
+page_title: '번역 구문'
+page_icon: 'ph:bold/brackets-curly'
+cache:
+  title: 캐싱
+  body: '번역 파일은 성능을 유지하기 위해 해결되고 캐시됩니다.'
+domains:
+  title: '번역 도메인'
+  body: '단축키를 사용하면 특정 컨텍스트에 대한 번역에 접근할 수 있습니다.'
+  context:
+    layout: '레이아웃에 상대적 (HTML 메타 태그 및 메인 페이지 프레임)'
+    page: '페이지에 상대적 (예: 페이지 본문 또는 모달)'
+extends:
+  title: 확장
+  body: |
+    파일의 대부분의 키가 다른 파일과 동일한 경우, <b>~extends</b> 구문을 사용하여 모든 키를 재사용하고 새 키만 추가하는 것이 더 간단합니다.
+includes:
+  title: 포함
+  body: |
+    번역 파일에서 중복 텍스트를 줄이는 것이 중요합니다. 매직 키를 사용하면 내부 구문 <b>@folder.file::key.sub_key</b>을 통해 한 파일에서 다른 파일로 포함할 수 있습니다. <br><br>키나 키 트리가 동일한 경우 <b>%</b> 키워드와 결합할 수 있습니다.
+javascript:
+  title: 자바스크립트
+  body: '번역은 동적 사용을 위해 자바스크립트로 전달될 수 있습니다.'
+  demo_text: '안녕하세요 자바스크립트!'
+  test_button: '여기에서 테스트'

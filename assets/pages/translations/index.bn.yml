@@ -1,0 +1,14 @@
+page_title: অনুবাদসমূহ
+page_icon: 'ph:bold/translate'
+intro: 'এই পৃষ্ঠাটি এর ইউআরএল-এর ভাষার অধীনে পরিবেশন করা হয়। এর শব্দগুলো yml ফাইল থেকে এসেছে, যা translations:translate-files-এর মাধ্যমে অনুবাদিত; নিচের নিবন্ধগুলো হল এমন এন্টিটি যাদের #[Translatable] ক্ষেত্রগুলো প্রথম পড়ার সময় অনুবাদিত হয় এবং সংরক্ষিত হয়।'
+locale:
+  current: 'বর্তমান ভাষা'
+  source: 'লেখা হয়েছে'
+column:
+  field: ক্ষেত্র
+  source: মূলে
+  translated: 'এই ভাষায় পড়ুন'
+field:
+  title: শিরোনাম
+  summary: সারাংশ
+switcher: 'ভাষা পরিবর্তন করুন'

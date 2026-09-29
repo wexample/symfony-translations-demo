@@ -1,0 +1,14 @@
+page_title: תרגומים
+page_icon: 'ph:bold/translate'
+intro: 'דף זה מוצג בשפה של כתובת ה-URL שלו. הניסוח מגיע מקבצי yml, שתורגמו עם translations:translate-files; המאמרים למטה הם ישויות שדות #[Translatable] שלהן מתורגמים בקריאה הראשונה ומאוחסנים.'
+locale:
+  current: 'שפה נוכחית'
+  source: 'תוכן שנכתב ב'
+column:
+  field: שדה
+  source: מקור
+  translated: 'קרא בשפה הזו'
+field:
+  title: כותרת
+  summary: סיכום
+switcher: 'שנה שפה'
