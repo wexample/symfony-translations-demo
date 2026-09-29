@@ -1,0 +1,14 @@
+page_title: 翻译
+page_icon: 'ph:bold/translate'
+intro: '此页面根据其网址提供语言。其措辞来自yml文件，通过translations:translate-files进行翻译；下面的文章是其#[Translatable]字段在首次阅读时翻译并存储的实体。'
+locale:
+  current: 当前语言
+  source: 书写内容的语言
+column:
+  field: 字段
+  source: 来源
+  translated: 用此语言阅读
+field:
+  title: 标题
+  summary: 摘要
+switcher: 切换语言
