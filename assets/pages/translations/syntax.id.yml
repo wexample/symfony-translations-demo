@@ -1,0 +1,24 @@
+page_title: 'Sintaksis terjemahan'
+page_icon: 'ph:bold/brackets-curly'
+cache:
+  title: Caching
+  body: 'File terjemahan diselesaikan dan disimpan untuk menjaga kinerja.'
+domains:
+  title: 'Domain terjemahan'
+  body: 'Shortcut memungkinkan akses ke terjemahan yang terkait dengan konteks tertentu.'
+  context:
+    layout: 'Terkait dengan layout (tag meta HTML dan kerangka halaman utama)'
+    page: 'Terkait dengan halaman (badan halaman atau modal misalnya)'
+extends:
+  title: Ekstensi
+  body: |
+    Jika sebagian besar kunci dalam sebuah file sama dengan yang lain, lebih sederhana untuk menggunakan sintaksis <b>~extends</b> untuk menggunakan kembali semua kunci dan hanya menambahkan yang baru.
+includes:
+  title: Inklusi
+  body: |
+    Penting untuk mengurangi teks duplikat dalam file terjemahan. Kunci ajaib memungkinkan inklusi dari satu file ke file lain menggunakan sintaks internal <b>@folder.file::key.sub_key</b>. <br><br>Anda dapat menggabungkannya dengan kata kunci <b>%</b> jika kunci atau pohon kunci adalah sama.
+javascript:
+  title: Javascript
+  body: 'Terjemahan dapat diteruskan ke Javascript untuk penggunaan dinamis.'
+  demo_text: 'Halo Javascript!'
+  test_button: 'Uji di sini'

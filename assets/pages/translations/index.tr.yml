@@ -1,0 +1,14 @@
+page_title: Çeviriler
+page_icon: 'ph:bold/translate'
+intro: "Bu sayfa, url'sinin dili altında sunulmaktadır. İçeriği yml dosyalarından gelmektedir, translations:translate-files ile çevrilmiştir; aşağıdaki makaleler, #[Translatable] alanlarının ilk okunuşta çevrildiği ve saklandığı varlıklardır."
+locale:
+  current: 'Geçerli dil'
+  source: 'Yazılı içerik'
+column:
+  field: Alan
+  source: Kaynak
+  translated: 'Bu dilde oku'
+field:
+  title: Başlık
+  summary: Özet
+switcher: 'Dili Değiştir'

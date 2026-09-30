@@ -1,0 +1,14 @@
+page_title: Traduções
+page_icon: 'ph:bold/translate'
+intro: 'Esta página é servida no idioma de sua URL. Sua redação vem dos arquivos yml, traduzidos com translations:translate-files; os artigos abaixo são entidades cujos campos #[Translatable] são traduzidos na primeira leitura e armazenados.'
+locale:
+  current: 'Idioma atual'
+  source: 'Conteúdo escrito em'
+column:
+  field: Campo
+  source: Fonte
+  translated: 'Lido neste idioma'
+field:
+  title: Título
+  summary: Resumo
+switcher: 'Trocar idioma'

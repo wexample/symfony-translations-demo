@@ -1,0 +1,24 @@
+page_title: 'Çeviri sözdizimi'
+page_icon: 'ph:bold/brackets-curly'
+cache:
+  title: Önbellekleme
+  body: 'Çeviri dosyaları, performansı korumak için çözülür ve önbelleğe alınır.'
+domains:
+  title: 'Çeviri alanları'
+  body: 'Kısayollar, belirli bağlamlara göre çevirilere erişim sağlar.'
+  context:
+    layout: 'Tasarım ile ilgili (HTML meta etiketleri ve ana sayfa çerçevesi)'
+    page: 'Sayfa ile ilgili (sayfa gövdesi veya modal gibi)'
+extends:
+  title: Uzantılar
+  body: |
+    Bir dosyadaki anahtarların çoğu başka bir dosyayla aynıysa, tüm anahtarları yeniden kullanmak ve yalnızca yeni olanları eklemek için <b>~extends</b> sözdizimini kullanmak daha basittir.
+includes:
+  title: 'Dahil etmeler'
+  body: |
+    Bir çeviri dosyasında tekrar eden metni azaltmak önemlidir. Sihirli anahtarlar, bir dosyadan diğerine dahil etmeler yapmaya olanak tanır; iç sözdizimi <b>@folder.file::key.sub_key</b> kullanılır. <br><br> Eğer anahtar veya anahtar ağacı aynıysa, <b>%</b> anahtar kelimesi ile birleştirebilirsiniz.
+javascript:
+  title: Javascript
+  body: "Çeviriler dinamik kullanım için Javascript'e aktarılabilir."
+  demo_text: 'Merhaba Javascript!'
+  test_button: 'Burada Test Et'
