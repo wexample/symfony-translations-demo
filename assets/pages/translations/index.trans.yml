@@ -1,0 +1,370 @@
+en:
+  page_title: Translations
+  page_icon: ph:bold/translate
+  intro: >-
+    This page is served under the language of its url. Its wording comes from the
+    yml files, translated with translations:translate-files; the articles below are
+    entities whose #[Translatable] fields are translated on first read and stored.
+  locale:
+    current: Current language
+    source: Content written in
+  column:
+    field: Field
+    source: Source
+    translated: Read in this language
+  field:
+    title: Title
+    summary: Summary
+  switcher: Switch language
+
+ar:
+  page_title: الترجمات
+  page_icon: 'ph:bold/translate'
+  intro: 'تُعرض هذه الصفحة بلغة عنوانها. نصها مستمد من ملفات yml، مترجمة باستخدام translations:translate-files؛ المقالات أدناه هي كيانات تحتوي على حقول #[Translatable] التي تُترجم عند القراءة الأولى وتُخزن.'
+  locale:
+    current: 'اللغة الحالية'
+    source: 'المحتوى المكتوب بـ'
+  column:
+    field: الحقل
+    source: المصدر
+    translated: 'اقرأ بهذه اللغة'
+  field:
+    title: العنوان
+    summary: الملخص
+  switcher: 'تبديل اللغة'
+
+bn:
+  page_title: অনুবাদসমূহ
+  page_icon: 'ph:bold/translate'
+  intro: 'এই পৃষ্ঠাটি এর ইউআরএল-এর ভাষার অধীনে পরিবেশন করা হয়। এর শব্দগুলো yml ফাইল থেকে এসেছে, যা translations:translate-files-এর মাধ্যমে অনুবাদিত; নিচের নিবন্ধগুলো হল এমন এন্টিটি যাদের #[Translatable] ক্ষেত্রগুলো প্রথম পড়ার সময় অনুবাদিত হয় এবং সংরক্ষিত হয়।'
+  locale:
+    current: 'বর্তমান ভাষা'
+    source: 'লেখা হয়েছে'
+  column:
+    field: ক্ষেত্র
+    source: মূলে
+    translated: 'এই ভাষায় পড়ুন'
+  field:
+    title: শিরোনাম
+    summary: সারাংশ
+  switcher: 'ভাষা পরিবর্তন করুন'
+
+de:
+  page_title: Übersetzungen
+  page_icon: 'ph:bold/translate'
+  intro: 'Diese Seite wird in der Sprache ihrer URL bereitgestellt. Ihre Formulierungen stammen aus den yml-Dateien, die mit translations:translate-files übersetzt wurden; die Artikel unten sind Entitäten, deren #[Translatable] Felder beim ersten Lesen übersetzt und gespeichert werden.'
+  locale:
+    current: 'Aktuelle Sprache'
+    source: 'Inhalt verfasst in'
+  column:
+    field: Feld
+    source: Quelle
+    translated: 'In dieser Sprache lesen'
+  field:
+    title: Titel
+    summary: Zusammenfassung
+  switcher: 'Sprache wechseln'
+
+es:
+  page_title: Traducciones
+  page_icon: 'ph:bold/translate'
+  intro: 'Esta página se sirve bajo el idioma de su URL. Su redacción proviene de los archivos yml, traducidos con translations:translate-files; los artículos a continuación son entidades cuyos campos #[Translatable] son traducidos en la primera lectura y almacenados.'
+  locale:
+    current: 'Idioma actual'
+    source: 'Contenido escrito en'
+  column:
+    field: Campo
+    source: Fuente
+    translated: 'Leído en este idioma'
+  field:
+    title: Título
+    summary: Resumen
+  switcher: 'Cambiar idioma'
+
+fa:
+  page_title: ترجمه‌ها
+  page_icon: 'ph:bold/translate'
+  intro: 'این صفحه تحت زبان آدرس خود ارائه می‌شود. متن آن از فایل‌های یمل آمده و با translations:translate-files ترجمه شده است؛ مقالات زیر موجودیت‌هایی هستند که فیلدهای #[Translatable] آنها در اولین خواندن ترجمه و ذخیره می‌شوند.'
+  locale:
+    current: 'زبان جاری'
+    source: 'محتوای نوشته شده به زبان'
+  column:
+    field: فیلد
+    source: منبع
+    translated: 'به این زبان خوانده شده'
+  field:
+    title: عنوان
+    summary: خلاصه
+  switcher: 'تغییر زبان'
+
+fi:
+  page_title: Käännökset
+  page_icon: 'ph:bold/translate'
+  intro: 'Tämä sivu tarjotaan sen URL-osoitteen kielellä. Sen teksti tulee yml-tiedostoista, jotka on käännetty translations:translate-files; alla olevat artikkelit ovat entiteettejä, joiden #[Translatable] kentät käännetään ensimmäisellä lukukerralla ja tallennetaan.'
+  locale:
+    current: 'Nykyinen kieli'
+    source: 'Kirjoitettu sisältö'
+  column:
+    field: Kenttä
+    source: Lähde
+    translated: 'Luettu tässä kielessä'
+  field:
+    title: Otsikko
+    summary: Yhteenveto
+  switcher: 'Vaihda kieli'
+
+fr:
+  page_title: Traductions
+  page_icon: 'ph:bold/translate'
+  intro: 'Cette page est servie dans la langue de son URL. Sa formulation provient des fichiers yml, traduits avec translations:translate-files ; les articles ci-dessous sont des entités dont les champs #[Translatable] sont traduits lors de la première lecture et stockés.'
+  locale:
+    current: 'Langue actuelle'
+    source: 'Contenu écrit en'
+  column:
+    field: Champ
+    source: Source
+    translated: 'Lu dans cette langue'
+  field:
+    title: Titre
+    summary: Résumé
+  switcher: 'Changer de langue'
+
+he:
+  page_title: תרגומים
+  page_icon: 'ph:bold/translate'
+  intro: 'דף זה מוצג בשפה של כתובת ה-URL שלו. הניסוח מגיע מקבצי yml, שתורגמו עם translations:translate-files; המאמרים למטה הם ישויות שדות #[Translatable] שלהן מתורגמים בקריאה הראשונה ומאוחסנים.'
+  locale:
+    current: 'שפה נוכחית'
+    source: 'תוכן שנכתב ב'
+  column:
+    field: שדה
+    source: מקור
+    translated: 'קרא בשפה הזו'
+  field:
+    title: כותרת
+    summary: סיכום
+  switcher: 'שנה שפה'
+
+hi:
+  page_title: अनुवाद
+  page_icon: 'ph:bold/translate'
+  intro: 'यह पृष्ठ इसके URL की भाषा के तहत प्रस्तुत किया गया है। इसका शब्दावली yml फ़ाइलों से आती है, जिन्हें translations:translate-files के साथ अनुवादित किया गया है; नीचे के लेख वे संस्थाएँ हैं जिनके #[Translatable] फ़ील्ड पहले पढ़ने पर अनुवादित होते हैं और संग्रहित होते हैं।'
+  locale:
+    current: 'वर्तमान भाषा'
+    source: 'जिस सामग्री में लिखा गया है'
+  column:
+    field: क्षेत्र
+    source: स्रोत
+    translated: 'इस भाषा में पढ़ें'
+  field:
+    title: शीर्षक
+    summary: संक्षेप
+  switcher: 'भाषा बदलें'
+
+id:
+  page_title: Terjemahan
+  page_icon: 'ph:bold/translate'
+  intro: 'Halaman ini disajikan dalam bahasa sesuai url-nya. Kata-katanya berasal dari file yml, diterjemahkan dengan translations:translate-files; artikel di bawah ini adalah entitas yang bidang #[Translatable]nya diterjemahkan pada pembacaan pertama dan disimpan.'
+  locale:
+    current: 'Bahasa saat ini'
+    source: 'Konten yang ditulis dalam'
+  column:
+    field: Bidang
+    source: Sumber
+    translated: 'Baca dalam bahasa ini'
+  field:
+    title: Judul
+    summary: Ringkasan
+  switcher: 'Ganti bahasa'
+
+it:
+  page_title: Traduzioni
+  page_icon: 'ph:bold/translate'
+  intro: 'Questa pagina è servita nella lingua del suo URL. Il suo testo proviene dai file yml, tradotti con translations:translate-files; gli articoli qui sotto sono entità i cui campi #[Translatable] vengono tradotti alla prima lettura e memorizzati.'
+  locale:
+    current: 'Lingua attuale'
+    source: 'Contenuto scritto in'
+  column:
+    field: Campo
+    source: Origine
+    translated: 'Leggi in questa lingua'
+  field:
+    title: Titolo
+    summary: Riepilogo
+  switcher: 'Cambia lingua'
+
+ja:
+  page_title: 翻訳
+  page_icon: 'ph:bold/translate'
+  intro: 'このページはURLの言語で提供されています。文言はymlファイルから来ており、translations:translate-filesで翻訳されています。以下の記事は、最初の読みで翻訳された#[Translatable]フィールドを持つエンティティです。'
+  locale:
+    current: 現在の言語
+    source: 書かれている言語
+  column:
+    field: フィールド
+    source: ソース
+    translated: この言語で読む
+  field:
+    title: タイトル
+    summary: 要約
+  switcher: 言語を切り替える
+
+ko:
+  page_title: 번역
+  page_icon: 'ph:bold/translate'
+  intro: '이 페이지는 URL의 언어에 따라 제공됩니다. 내용은 yml 파일에서 가져오며, translations:translate-files로 번역되었습니다. 아래의 항목들은 #[Translatable] 필드가 처음 읽을 때 번역되어 저장된 엔티티입니다.'
+  locale:
+    current: '현재 언어'
+    source: '작성된 콘텐츠'
+  column:
+    field: 필드
+    source: 원본
+    translated: '이 언어로 읽기'
+  field:
+    title: 제목
+    summary: 요약
+  switcher: '언어 전환'
+
+nl:
+  page_title: Vertalingen
+  page_icon: 'ph:bold/translate'
+  intro: 'Deze pagina wordt weergegeven in de taal van de url. De tekst komt uit de yml-bestanden, vertaald met translations:translate-files; de onderstaande artikelen zijn entiteiten waarvan de #[Translatable] velden bij de eerste lezing vertaald en opgeslagen worden.'
+  locale:
+    current: 'Huidige taal'
+    source: 'Inhoud geschreven in'
+  column:
+    field: Veld
+    source: Bron
+    translated: 'Gelezen in deze taal'
+  field:
+    title: Titel
+    summary: Samenvatting
+  switcher: 'Taal wisselen'
+
+pl:
+  page_title: Tłumaczenia
+  page_icon: 'ph:bold/translate'
+  intro: 'Ta strona jest serwowana w języku zawartym w jej adresie URL. Jej treść pochodzi z plików yml, przetłumaczonych za pomocą translations:translate-files; artykuły poniżej to encje, których pola #[Translatable] są tłumaczone przy pierwszym odczycie i zapisywane.'
+  locale:
+    current: 'Bieżący język'
+    source: 'Treść napisana w'
+  column:
+    field: Pole
+    source: Źródło
+    translated: 'Przeczytaj w tym języku'
+  field:
+    title: Tytuł
+    summary: Podsumowanie
+  switcher: 'Zmień język'
+
+pt_BR:
+  page_title: Traduções
+  page_icon: 'ph:bold/translate'
+  intro: 'Esta página é servida no idioma de sua URL. Sua redação vem dos arquivos yml, traduzidos com translations:translate-files; os artigos abaixo são entidades cujos campos #[Translatable] são traduzidos na primeira leitura e armazenados.'
+  locale:
+    current: 'Idioma atual'
+    source: 'Conteúdo escrito em'
+  column:
+    field: Campo
+    source: Fonte
+    translated: 'Lido neste idioma'
+  field:
+    title: Título
+    summary: Resumo
+  switcher: 'Trocar idioma'
+
+ru:
+  page_title: Переводы
+  page_icon: 'ph:bold/translate'
+  intro: 'Эта страница отображается на языке, указанном в её URL. Её текст взят из yml файлов, переведённых с помощью translations:translate-files; статьи ниже - это сущности, поля которых #[Translatable] переводятся при первом чтении и сохраняются.'
+  locale:
+    current: 'Текущий язык'
+    source: 'Содержимое написано на'
+  column:
+    field: Поле
+    source: 'Исходный текст'
+    translated: 'Читать на этом языке'
+  field:
+    title: Заголовок
+    summary: Резюме
+  switcher: 'Сменить язык'
+
+th:
+  page_title: การแปล
+  page_icon: 'ph:bold/translate'
+  intro: 'หน้านี้ให้บริการในภาษาของ URL ของมัน คำต่างๆ มาจากไฟล์ yml ที่แปลด้วย translations:translate-files; บทความด้านล่างเป็นเอนทิตีที่ฟิลด์ #[Translatable] ถูกแปลในครั้งแรกที่อ่านและจัดเก็บไว้'
+  locale:
+    current: ภาษาปัจจุบัน
+    source: เนื้อหาที่เขียนด้วย
+  column:
+    field: ฟิลด์
+    source: แหล่งที่มา
+    translated: อ่านในภาษานี้
+  field:
+    title: ชื่อเรื่อง
+    summary: สรุป
+  switcher: เปลี่ยนภาษา
+
+tr:
+  page_title: Çeviriler
+  page_icon: 'ph:bold/translate'
+  intro: "Bu sayfa, url'sinin dili altında sunulmaktadır. İçeriği yml dosyalarından gelmektedir, translations:translate-files ile çevrilmiştir; aşağıdaki makaleler, #[Translatable] alanlarının ilk okunuşta çevrildiği ve saklandığı varlıklardır."
+  locale:
+    current: 'Geçerli dil'
+    source: 'Yazılı içerik'
+  column:
+    field: Alan
+    source: Kaynak
+    translated: 'Bu dilde oku'
+  field:
+    title: Başlık
+    summary: Özet
+  switcher: 'Dili Değiştir'
+
+ur:
+  page_title: ترجمے
+  page_icon: 'ph:bold/translate'
+  intro: 'یہ صفحہ اس کی یو آر ایل کی زبان کے تحت پیش کی جاتی ہے۔ اس کا متن yml فائلوں سے آیا ہے، جسے translations:translate-files کے ساتھ ترجمہ کیا گیا ہے؛ نیچے دیئے گئے مضامین وہ ہستیاں ہیں جن کے #[Translatable] فیلڈز پہلے پڑھنے پر ترجمہ کیے جاتے ہیں اور محفوظ کیے جاتے ہیں۔'
+  locale:
+    current: 'موجودہ زبان'
+    source: 'لکھا گیا مواد'
+  column:
+    field: فیلڈ
+    source: ماخذ
+    translated: 'اس زبان میں پڑھیں'
+  field:
+    title: عنوان
+    summary: خلاصہ
+  switcher: 'زبان تبدیل کریں'
+
+vi:
+  page_title: Dịch
+  page_icon: 'ph:bold/translate'
+  intro: 'Trang này được phục vụ theo ngôn ngữ của url. Nội dung của nó đến từ các tệp yml, được dịch bằng translations:translate-files; các bài viết dưới đây là các thực thể có các trường #[Translatable] được dịch khi đọc lần đầu và được lưu trữ.'
+  locale:
+    current: 'Ngôn ngữ hiện tại'
+    source: 'Nội dung được viết bằng'
+  column:
+    field: Trường
+    source: Nguồn
+    translated: 'Đọc bằng ngôn ngữ này'
+  field:
+    title: 'Tiêu đề'
+    summary: 'Tóm tắt'
+  switcher: 'Chuyển ngôn ngữ'
+
+zh:
+  page_title: 翻译
+  page_icon: 'ph:bold/translate'
+  intro: '此页面根据其网址提供语言。其措辞来自yml文件，通过translations:translate-files进行翻译；下面的文章是其#[Translatable]字段在首次阅读时翻译并存储的实体。'
+  locale:
+    current: 当前语言
+    source: 书写内容的语言
+  column:
+    field: 字段
+    source: 来源
+    translated: 用此语言阅读
+  field:
+    title: 标题
+    summary: 摘要
+  switcher: 切换语言

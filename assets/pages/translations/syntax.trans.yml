@@ -1,0 +1,603 @@
+en:
+  page_title: Translation syntax
+  page_icon: ph:bold/brackets-curly
+
+  cache:
+    title: Caching
+    body: Translation files are resolved and cached to preserve performance.
+
+  domains:
+    title: Translation domains
+    body: Shortcuts allow access to translations relative to certain contexts.
+    context:
+      layout: Relative to the layout (HTML meta tags and main page frame)
+      page: Relative to the page (page body or modal for example)
+
+  extends:
+    title: Extensions
+    body: >
+      If most keys in a file are the same as another, it is simpler to use the <b>~extends</b>
+      syntax to reuse all keys and only add the new ones.
+
+  includes:
+    title: Inclusions
+    body: >
+      It is important to reduce duplicate text in a translation file. Magic keys allow inclusions
+      from one file to another using the internal syntax <b>@folder.file::key.sub_key</b>.
+      <br><br>You can combine it with the <b>%</b> keyword if the key or key tree is the same.
+
+  javascript:
+    title: Javascript
+    body: Translations can be passed to Javascript for dynamic use.
+    demo_text: Hello Javascript!
+    test_button: Test here
+
+ar:
+  page_title: 'بنية الترجمة'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 'التخزين المؤقت'
+    body: 'يتم حل ملفات الترجمة وتخزينها مؤقتاً للحفاظ على الأداء.'
+  domains:
+    title: 'مجالات الترجمة'
+    body: 'تسمح الاختصارات بالوصول إلى الترجمات بالنسبة لسياقات معينة.'
+    context:
+      layout: 'بالنسبة للتخطيط (علامات ميتا HTML وإطار الصفحة الرئيسية)'
+      page: 'بالنسبة للصفحة (نص الصفحة أو نافذة منبثقة على سبيل المثال)'
+  extends:
+    title: الامتدادات
+    body: |
+      إذا كانت معظم المفاتيح في ملف ما هي نفسها كما في ملف آخر، فمن الأسهل استخدام بناء <b>~extends</b> لإعادة استخدام جميع المفاتيح وإضافة المفاتيح الجديدة فقط.
+  includes:
+    title: الإدراجات
+    body: |
+      من المهم تقليل النصوص المكررة في ملف الترجمة. تسمح المفاتيح السحرية بالإدراج من ملف إلى آخر باستخدام البنية الداخلية <b>@folder.file::key.sub_key</b>. <br><br>يمكنك دمجها مع الكلمة المفتاحية <b>%</b> إذا كانت المفتاح أو شجرة المفاتيح هي نفسها.
+  javascript:
+    title: 'جافا سكريبت'
+    body: 'يمكن تمرير الترجمات إلى جافا سكريبت للاستخدام الديناميكي.'
+    demo_text: 'مرحبًا جافا سكريبت!'
+    test_button: 'اختبر هنا'
+
+bn:
+  page_title: 'অনুবাদের সিনট্যাক্স'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: ক্যাশিং
+    body: 'অনুবাদ ফাইলগুলি সমাধান করা হয় এবং পারফরম্যান্স রক্ষার জন্য ক্যাশে করা হয়।'
+  domains:
+    title: 'অনুবাদ ডোমেইনস'
+    body: 'শর্টকাটগুলি নির্দিষ্ট প্রসঙ্গের সাথে সম্পর্কিত অনুবাদগুলিতে প্রবেশের অনুমতি দেয়।'
+    context:
+      layout: 'লেআউটের সাথে সম্পর্কিত (এইচটিএমএল মেটা ট্যাগ এবং মূল পৃষ্ঠা ফ্রেম)'
+      page: 'পৃষ্ঠার সাথে সম্পর্কিত (পৃষ্ঠা শরীর বা মডাল উদাহরণস্বরূপ)'
+  extends:
+    title: এক্সটেনশন
+    body: |
+      যদি একটি ফাইলে বেশিরভাগ কী অন্যটির মতো হয়, তবে সমস্ত কী পুনরায় ব্যবহার করতে এবং কেবল নতুনগুলি যোগ করতে <b>~extends</b> সিনট্যাক্স ব্যবহার করা সহজ।
+  includes:
+    title: ইনক্লুশনস
+    body: |
+      একটি অনুবাদ ফাইলে ডুপ্লিকেট টেক্সট কমানো গুরুত্বপূর্ণ। ম্যাজিক কী এক ফাইল থেকে অন্য ফাইলে অন্তর্ভুক্তির জন্য অভ্যন্তরীণ সিনট্যাক্স <b>@folder.file::key.sub_key</b> ব্যবহার করতে দেয়। <br><br>যদি কী বা কী গাছ একই হয় তবে এটি <b>%</b> কীওয়ার্ডের সাথে সংমিশ্রণ করা যেতে পারে।
+  javascript:
+    title: জাভাস্ক্রিপ্ট
+    body: 'অনুবাদগুলি গতিশীল ব্যবহারের জন্য জাভাস্ক্রিপ্টে পাঠানো যেতে পারে।'
+    demo_text: 'হ্যালো জাভাস্ক্রিপ্ট!'
+    test_button: 'এখানে পরীক্ষা করুন'
+
+de:
+  page_title: Übersetzungssyntax
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Caching
+    body: 'Übersetzungsdateien werden aufgelöst und zwischengespeichert, um die Leistung zu erhalten.'
+  domains:
+    title: Übersetzungsdomänen
+    body: 'Abkürzungen ermöglichen den Zugriff auf Übersetzungen in bestimmten Kontexten.'
+    context:
+      layout: 'In Bezug auf das Layout (HTML-Meta-Tags und Hauptseitenrahmen)'
+      page: 'In Bezug auf die Seite (Seiteninhalt oder Modal beispielsweise)'
+  extends:
+    title: Erweiterungen
+    body: |
+      Wenn die meisten Schlüssel in einer Datei denselben wie in einer anderen entsprechen, ist es einfacher, die <b>~extends</b> Syntax zu verwenden, um alle Schlüssel wiederzuverwenden und nur die neuen hinzuzufügen.
+  includes:
+    title: Inklusionen
+    body: |
+      Es ist wichtig, duplizierten Text in einer Übersetzungsdatei zu reduzieren. Magische Schlüssel ermöglichen Inklusionen von einer Datei in eine andere unter Verwendung der internen Syntax <b>@folder.file::key.sub_key</b>. <br><br>Sie können dies mit dem <b>%</b> Schlüsselwort kombinieren, wenn der Schlüssel oder der Schlüsselbaum derselbe ist.
+  javascript:
+    title: Javascript
+    body: 'Übersetzungen können für die dynamische Verwendung an Javascript übergeben werden.'
+    demo_text: 'Hallo Javascript!'
+    test_button: 'Hier testen'
+
+es:
+  page_title: 'Sintaxis de traducción'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Caché
+    body: 'Los archivos de traducción se resuelven y se almacenan en caché para preservar el rendimiento.'
+  domains:
+    title: 'Dominios de traducción'
+    body: 'Los atajos permiten acceder a traducciones relativas a ciertos contextos.'
+    context:
+      layout: 'Relativo al diseño (metaetiquetas HTML y marco de la página principal)'
+      page: 'Relativo a la página (cuerpo de la página o modal por ejemplo)'
+  extends:
+    title: Extensiones
+    body: |
+      Si la mayoría de las claves en un archivo son las mismas que en otro, es más simple usar la sintaxis <b>~extends</b> para reutilizar todas las claves y solo agregar las nuevas.
+  includes:
+    title: Inclusiones
+    body: |
+      Es importante reducir el texto duplicado en un archivo de traducción. Las claves mágicas permiten inclusiones de un archivo a otro utilizando la sintaxis interna <b>@folder.file::key.sub_key</b>. <br><br>Puedes combinarlo con la palabra clave <b>%</b> si la clave o árbol de claves es el mismo.
+  javascript:
+    title: Javascript
+    body: 'Las traducciones se pueden pasar a Javascript para uso dinámico.'
+    demo_text: '¡Hola Javascript!'
+    test_button: 'Prueba aquí'
+
+fa:
+  page_title: 'نحوه ترجمه'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 'کش کردن'
+    body: 'فایل‌های ترجمه حل و کش می‌شوند تا عملکرد حفظ شود.'
+  domains:
+    title: 'دامنه‌های ترجمه'
+    body: 'میانبرها دسترسی به ترجمه‌ها را نسبت به زمینه‌های خاص فراهم می‌کنند.'
+    context:
+      layout: 'نسبت به طرح (تگ‌های متا HTML و فریم صفحه اصلی)'
+      page: 'نسبت به صفحه (بدنه صفحه یا مدال به عنوان مثال)'
+  extends:
+    title: گسترش‌ها
+    body: |
+      اگر اکثر کلیدها در یک فایل مشابه دیگری باشند، ساده‌تر است از نحو <b>~extends</b> برای استفاده مجدد از تمام کلیدها و فقط افزودن کلیدهای جدید استفاده کنید.
+  includes:
+    title: گنجاندن‌ها
+    body: |
+      کاهش متن تکراری در یک فایل ترجمه مهم است. کلیدهای جادویی امکان گنجاندن از یک فایل به فایل دیگر را با استفاده از نحو داخلی <b>@folder.file::key.sub_key</b> فراهم می‌کنند. <br><br>شما می‌توانید آن را با کلید <b>%</b> ترکیب کنید اگر کلید یا درخت کلید یکسان باشد.
+  javascript:
+    title: 'جاوا اسکریپت'
+    body: 'ترجمه‌ها می‌توانند به جاوا اسکریپت برای استفاده دینامیک منتقل شوند.'
+    demo_text: 'سلام جاوا اسکریپت!'
+    test_button: 'اینجا آزمایش کنید'
+
+fi:
+  page_title: Käännössyntaksi
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Välimuisti
+    body: 'Käännöstiedostot ratkaistaan ja välimuistitetaan suorituskyvyn säilyttämiseksi.'
+  domains:
+    title: Käännösalueet
+    body: 'Pikanäppäimet mahdollistavat pääsyn käännöksiin tietyistä konteksteista.'
+    context:
+      layout: 'Suhteessa asetteluun (HTML-meta-tagit ja pääsivun kehys)'
+      page: 'Suhteessa sivuun (sivun sisältö tai modaalinen ikkuna esimerkiksi)'
+  extends:
+    title: Laajennukset
+    body: |
+      Jos useimmat avaimet tiedostossa ovat samoja kuin toisessa, on helpompaa käyttää <b>~extends</b> -syntaksia kaikkien avaimien uudelleenkäyttämiseen ja vain uusien lisäämiseen.
+  includes:
+    title: Sisällytykset
+    body: |
+      On tärkeää vähentää päällekkäistä tekstiä käännöstiedostossa. Taikavälineet mahdollistavat sisällytykset yhdestä tiedostosta toiseen käyttäen sisäistä syntaksia <b>@folder.file::key.sub_key</b>. <br><br>Voit yhdistää sen <b>%</b> -avaimeen, jos avain tai avainpuu on sama.
+  javascript:
+    title: Javascript
+    body: 'Käännöksiä voidaan siirtää Javascriptille dynaamista käyttöä varten.'
+    demo_text: 'Hei Javascript!'
+    test_button: 'Testaa täällä'
+
+fr:
+  page_title: 'Syntaxe des traductions'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 'Mise en cache'
+    body: 'Les fichiers de traductions sont résolus et mis en cache pour préserver la performance.'
+  domains:
+    title: 'Domaines de traduction'
+    body: "Des raccourcis permettent d'accéder aux traduction relatives à certains contextes"
+    context:
+      layout: 'Relatif au layout (baslises meta HTML et cadre principal de la page HTML)'
+      page: 'Relatif a la page (corps de page / ou modale par exemple)'
+  extends:
+    title: Extensions
+    body: "Si une majorité de clés d'un fichier son les mêmes qu'un autre, il sera plus simple d'utiliser la syntaxe <b>~extends</b> afin de réutiliser l'ensemble des, et de n'ajouter que les nouvelles."
+  includes:
+    title: Inclusions
+    body: "Il est important de veiller a réduire les textes en double dans un fichier de traduction. Pour ce faire, des clés magiques permettent de faire des inclusions d'un fichier vers un autre en utilisant en interne la syntaxe <b>@folder.file::key.sub_key</b>. <br><br>Vous pouvez la combiner avec le mot clé <b>%</b>, si la clé, ou l'arborescence de clés sont les mêmes."
+  javascript:
+    title: Javascript
+    body: 'Il est possible de passer les traductions a Javascript pour une utilisation dynamique.'
+    demo_text: 'Hello Javascript!'
+    test_button: 'Test here'
+
+he:
+  page_title: 'תחביר תרגום'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: מטמון
+    body: 'קבצי תרגום נפתרים ומאוחסנים במטמון כדי לשמור על ביצועים.'
+  domains:
+    title: 'תחומי תרגום'
+    body: 'קיצורים מאפשרים גישה לתרגומים בהקשרים מסוימים.'
+    context:
+      layout: 'בהקשר של העיצוב (תגי מטא HTML ומסגרת עמוד ראשי)'
+      page: 'בהקשר של העמוד (גוף העמוד או מודאל לדוגמה)'
+  extends:
+    title: הרחבות
+    body: |
+      אם רוב המפתחות בקובץ זהים לאחרים, פשוט יותר להשתמש בתחביר <b>~extends</b> כדי לשחזר את כל המפתחות ולהוסיף רק את החדשים.
+  includes:
+    title: כללות
+    body: |
+      חשוב להפחית טקסט כפול בקובץ תרגום. מפתחות קסם מאפשרים הכללות מקובץ אחד לאחר באמצעות התחביר הפנימי <b>@folder.file::key.sub_key</b>. <br><br>ניתן לשלב זאת עם המילה המפתח <b>%</b> אם המפתח או עץ המפתחות זהים.
+  javascript:
+    title: Javascript
+    body: 'תרגומים יכולים לעבור ל-Javascript לשימוש דינמי.'
+    demo_text: 'שלום Javascript!'
+    test_button: 'בדוק כאן'
+
+hi:
+  page_title: 'अनुवाद सिंटैक्स'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: कैशिंग
+    body: 'अनुवाद फ़ाइलों को हल किया जाता है और प्रदर्शन को बनाए रखने के लिए कैश किया जाता है।'
+  domains:
+    title: 'अनुवाद डोमेन'
+    body: 'शॉर्टकट्स कुछ संदर्भों के सापेक्ष अनुवादों तक पहुंच प्रदान करते हैं।'
+    context:
+      layout: 'लेआउट के सापेक्ष (एचटीएमएल मेटा टैग और मुख्य पृष्ठ फ्रेम)'
+      page: 'पृष्ठ के सापेक्ष (पृष्ठ शरीर या मोडल उदाहरण के लिए)'
+  extends:
+    title: एक्सटेंशन
+    body: |
+      यदि किसी फ़ाइल में अधिकांश कुंजी किसी अन्य के समान हैं, तो सभी कुंजियाँ पुन: उपयोग करने के लिए <b>~extends</b> सिंटैक्स का उपयोग करना सरल है और केवल नई जोड़ना।
+  includes:
+    title: 'शामिल करना'
+    body: |
+      अनुवाद फ़ाइल में डुप्लिकेट टेक्स्ट को कम करना महत्वपूर्ण है। जादुई कुंजियाँ एक फ़ाइल से दूसरी फ़ाइल में शामिल करने की अनुमति देती हैं, आंतरिक सिंटैक्स <b>@folder.file::key.sub_key</b> का उपयोग करके। <br><br>यदि कुंजी या कुंजी वृक्ष समान है तो आप इसे <b>%</b> कीवर्ड के साथ संयोजित कर सकते हैं।
+  javascript:
+    title: जावास्क्रिप्ट
+    body: 'अनुवादों को गतिशील उपयोग के लिए जावास्क्रिप्ट में पास किया जा सकता है।'
+    demo_text: 'नमस्ते जावास्क्रिप्ट!'
+    test_button: 'यहाँ परीक्षण करें'
+
+id:
+  page_title: 'Sintaksis terjemahan'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Caching
+    body: 'File terjemahan diselesaikan dan disimpan untuk menjaga kinerja.'
+  domains:
+    title: 'Domain terjemahan'
+    body: 'Shortcut memungkinkan akses ke terjemahan yang terkait dengan konteks tertentu.'
+    context:
+      layout: 'Terkait dengan layout (tag meta HTML dan kerangka halaman utama)'
+      page: 'Terkait dengan halaman (badan halaman atau modal misalnya)'
+  extends:
+    title: Ekstensi
+    body: |
+      Jika sebagian besar kunci dalam sebuah file sama dengan yang lain, lebih sederhana untuk menggunakan sintaksis <b>~extends</b> untuk menggunakan kembali semua kunci dan hanya menambahkan yang baru.
+  includes:
+    title: Inklusi
+    body: |
+      Penting untuk mengurangi teks duplikat dalam file terjemahan. Kunci ajaib memungkinkan inklusi dari satu file ke file lain menggunakan sintaks internal <b>@folder.file::key.sub_key</b>. <br><br>Anda dapat menggabungkannya dengan kata kunci <b>%</b> jika kunci atau pohon kunci adalah sama.
+  javascript:
+    title: Javascript
+    body: 'Terjemahan dapat diteruskan ke Javascript untuk penggunaan dinamis.'
+    demo_text: 'Halo Javascript!'
+    test_button: 'Uji di sini'
+
+it:
+  page_title: 'Sintassi della traduzione'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Caching
+    body: 'I file di traduzione vengono risolti e memorizzati nella cache per preservare le prestazioni.'
+  domains:
+    title: 'Domini di traduzione'
+    body: 'Le scorciatoie consentono di accedere alle traduzioni relative a determinati contesti.'
+    context:
+      layout: 'Relativo al layout (meta tag HTML e frame principale della pagina)'
+      page: 'Relativo alla pagina (corpo della pagina o modale, ad esempio)'
+  extends:
+    title: Estensioni
+    body: |
+      Se la maggior parte delle chiavi in un file sono le stesse di un altro, è più semplice usare la sintassi <b>~extends</b> per riutilizzare tutte le chiavi e aggiungere solo quelle nuove.
+  includes:
+    title: Inclusioni
+    body: |
+      È importante ridurre il testo duplicato in un file di traduzione. Le chiavi magiche consentono inclusioni da un file a un altro utilizzando la sintassi interna <b>@folder.file::key.sub_key</b>. <br><br>Puoi combinarlo con la parola chiave <b>%</b> se la chiave o l'albero delle chiavi è lo stesso.
+  javascript:
+    title: Javascript
+    body: 'Le traduzioni possono essere passate a Javascript per un uso dinamico.'
+    demo_text: 'Ciao Javascript!'
+    test_button: 'Testa qui'
+
+ja:
+  page_title: 翻訳構文
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: キャッシュ
+    body: 翻訳ファイルは解決され、パフォーマンスを維持するためにキャッシュされます。
+  domains:
+    title: 翻訳ドメイン
+    body: ショートカットを使用すると、特定のコンテキストに関連する翻訳にアクセスできます。
+    context:
+      layout: レイアウトに関連（HTMLメタタグとメインページフレーム）
+      page: ページに関連（ページ本文やモーダルなど）
+  extends:
+    title: 拡張
+    body: |
+      ファイル内のほとんどのキーが他のファイルと同じである場合は、<b>~extends</b> 構文を使用してすべてのキーを再利用し、新しいキーのみを追加する方が簡単です。
+  includes:
+    title: インクルージョン
+    body: |
+      翻訳ファイル内の重複テキストを減らすことが重要です。マジックキーを使用すると、内部構文 <b>@folder.file::key.sub_key</b> を使用して、一つのファイルから別のファイルにインクルージョンできます。<br><br> キーまたはキーのツリーが同じであれば、<b>%</b> キーワードと組み合わせることができます。
+  javascript:
+    title: Javascript
+    body: 翻訳をJavascriptに渡して動的に使用できます。
+    demo_text: こんにちはJavascript！
+    test_button: ここでテスト
+
+ko:
+  page_title: '번역 구문'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 캐싱
+    body: '번역 파일은 성능을 유지하기 위해 해결되고 캐시됩니다.'
+  domains:
+    title: '번역 도메인'
+    body: '단축키를 사용하면 특정 컨텍스트에 대한 번역에 접근할 수 있습니다.'
+    context:
+      layout: '레이아웃에 상대적 (HTML 메타 태그 및 메인 페이지 프레임)'
+      page: '페이지에 상대적 (예: 페이지 본문 또는 모달)'
+  extends:
+    title: 확장
+    body: |
+      파일의 대부분의 키가 다른 파일과 동일한 경우, <b>~extends</b> 구문을 사용하여 모든 키를 재사용하고 새 키만 추가하는 것이 더 간단합니다.
+  includes:
+    title: 포함
+    body: |
+      번역 파일에서 중복 텍스트를 줄이는 것이 중요합니다. 매직 키를 사용하면 내부 구문 <b>@folder.file::key.sub_key</b>을 통해 한 파일에서 다른 파일로 포함할 수 있습니다. <br><br>키나 키 트리가 동일한 경우 <b>%</b> 키워드와 결합할 수 있습니다.
+  javascript:
+    title: 자바스크립트
+    body: '번역은 동적 사용을 위해 자바스크립트로 전달될 수 있습니다.'
+    demo_text: '안녕하세요 자바스크립트!'
+    test_button: '여기에서 테스트'
+
+nl:
+  page_title: Vertalingsyntaxis
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Caching
+    body: 'Vertalingsbestanden worden opgelost en gecached om de prestaties te behouden.'
+  domains:
+    title: Vertaalgebieden
+    body: 'Sneltoetsen bieden toegang tot vertalingen in relatie tot bepaalde contexten.'
+    context:
+      layout: 'Relatief aan de lay-out (HTML meta-tags en hoofdpaginaframe)'
+      page: 'Relatief aan de pagina (bijvoorbeeld de paginainhoud of een venster)'
+  extends:
+    title: Uitbreidingen
+    body: |
+      Als de meeste sleutels in een bestand hetzelfde zijn als in een ander, is het eenvoudiger om de <b>~extends</b> syntaxis te gebruiken om alle sleutels opnieuw te gebruiken en alleen de nieuwe toe te voegen.
+  includes:
+    title: Inclusies
+    body: |
+      Het is belangrijk om duplicaattekst in een vertaalbestand te verminderen. Magische sleutels maken inclusies van het ene bestand naar het andere mogelijk met de interne syntaxis <b>@folder.file::key.sub_key</b>. <br><br>Je kunt het combineren met het <b>%</b> sleutelwoord als de sleutel of sleutelboom hetzelfde is.
+  javascript:
+    title: Javascript
+    body: 'Vertalingen kunnen naar Javascript worden doorgegeven voor dynamisch gebruik.'
+    demo_text: 'Hallo Javascript!'
+    test_button: 'Test hier'
+
+pl:
+  page_title: 'Składnia tłumaczeń'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Buforowanie
+    body: 'Pliki tłumaczeń są rozwiązywane i buforowane w celu zachowania wydajności.'
+  domains:
+    title: 'Domeny tłumaczeń'
+    body: 'Skróty umożliwiają dostęp do tłumaczeń w określonych kontekstach.'
+    context:
+      layout: 'W odniesieniu do układu (tagi meta HTML i główny szkielet strony)'
+      page: 'W odniesieniu do strony (treść strony lub modal, na przykład)'
+  extends:
+    title: Rozszerzenia
+    body: |
+      Jeśli większość kluczy w pliku jest taka sama jak w innym, łatwiej jest użyć składni <b>~extends</b>, aby ponownie wykorzystać wszystkie klucze i tylko dodać nowe.
+  includes:
+    title: Inkluzje
+    body: |
+      Ważne jest, aby zredukować powielony tekst w pliku tłumaczeń. Klucze magiczne pozwalają na inkluzje z jednego pliku do drugiego, używając wewnętrznej składni <b>@folder.file::key.sub_key</b>. <br><br>Możesz połączyć to z kluczem <b>%</b>, jeśli klucz lub struktura kluczy są takie same.
+  javascript:
+    title: Javascript
+    body: 'Tłumaczenia mogą być przekazywane do Javascriptu do dynamicznego użycia.'
+    demo_text: 'Witaj Javascript!'
+    test_button: 'Przetestuj tutaj'
+
+pt_BR:
+  page_title: 'Sintaxe de tradução'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Cache
+    body: 'Arquivos de tradução são resolvidos e armazenados em cache para preservar o desempenho.'
+  domains:
+    title: 'Domínios de tradução'
+    body: 'Atalhos permitem acessar traduções relativas a certos contextos.'
+    context:
+      layout: 'Relativo ao layout (meta tags HTML e estrutura principal da página)'
+      page: 'Relativo à página (corpo da página ou modal, por exemplo)'
+  extends:
+    title: Extensões
+    body: |
+      Se a maioria das chaves em um arquivo forem as mesmas de outro, é mais simples usar a sintaxe <b>~extends</b> para reutilizar todas as chaves e apenas adicionar as novas.
+  includes:
+    title: Inclusões
+    body: |
+      É importante reduzir texto duplicado em um arquivo de tradução. Chaves mágicas permitem inclusões de um arquivo para outro usando a sintaxe interna <b>@folder.file::key.sub_key</b>. <br><br>Você pode combiná-la com a palavra-chave <b>%</b> se a chave ou a árvore de chaves for a mesma.
+  javascript:
+    title: Javascript
+    body: 'Traduções podem ser passadas para o Javascript para uso dinâmico.'
+    demo_text: 'Olá Javascript!'
+    test_button: 'Teste aqui'
+
+ru:
+  page_title: 'Синтаксис перевода'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Кэширование
+    body: 'Файлы перевода обрабатываются и кэшируются для повышения производительности.'
+  domains:
+    title: 'Домены перевода'
+    body: 'Сокращения позволяют получать доступ к переводам относительно определённых контекстов.'
+    context:
+      layout: 'Относительно макета (HTML метатеги и основной фрейм страницы)'
+      page: 'Относительно страницы (например, тело страницы или модальное окно)'
+  extends:
+    title: Расширения
+    body: |
+      Если большинство ключей в файле совпадает с другими, проще использовать синтаксис <b>~extends</b>, чтобы повторно использовать все ключи и добавить только новые.
+  includes:
+    title: Включения
+    body: |
+      Важно уменьшить количество дублирующегося текста в файле перевода. Магические ключи позволяют включения из одного файла в другой, используя внутренний синтаксис <b>@folder.file::key.sub_key</b>. <br><br>Вы можете комбинировать это с ключевым словом <b>%</b>, если ключ или дерево ключей совпадают.
+  javascript:
+    title: Javascript
+    body: 'Переводы могут быть переданы в Javascript для динамического использования.'
+    demo_text: 'Привет, Javascript!'
+    test_button: 'Протестировать здесь'
+
+th:
+  page_title: ไวยากรณ์การแปล
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: การเก็บข้อมูล
+    body: ไฟล์การแปลจะถูกแก้ไขและเก็บข้อมูลเพื่อรักษาประสิทธิภาพการทำงาน.
+  domains:
+    title: โดเมนการแปล
+    body: ทางลัดช่วยให้เข้าถึงการแปลที่เกี่ยวข้องกับบริบทบางอย่าง.
+    context:
+      layout: 'เกี่ยวกับเลย์เอาต์ (แท็กเมตา HTML และกรอบหน้าหลัก)'
+      page: 'เกี่ยวกับหน้า (เนื้อหาของหน้า หรือโมดัลตัวอย่าง)'
+  extends:
+    title: ส่วนขยาย
+    body: |
+      หากกุญแจส่วนใหญ่ในไฟล์เหมือนกับอีกไฟล์หนึ่ง การใช้ไวยากรณ์ <b>~extends</b> จะช่วยให้สามารถนำกุญแจทั้งหมดมาใช้ซ้ำและเพียงแค่เพิ่มกุญแจใหม่ได้ง่ายขึ้น.
+  includes:
+    title: การรวม
+    body: |
+      สิ่งสำคัญคือต้องลดข้อความที่ซ้ำกันในไฟล์การแปล กุญแจเวทย์ช่วยให้สามารถรวมจากไฟล์หนึ่งไปยังอีกไฟล์หนึ่งโดยใช้ไวยากรณ์ภายใน <b>@folder.file::key.sub_key</b>. <br><br>คุณสามารถรวมกับคำสำคัญ <b>%</b> หากกุญแจหรือโครงสร้างกุญแจเหมือนกัน.
+  javascript:
+    title: Javascript
+    body: 'การแปลสามารถถูกส่งไปยัง Javascript เพื่อการใช้งานที่มีพลศาสตร์.'
+    demo_text: 'สวัสดี Javascript!'
+    test_button: ทดสอบที่นี่
+
+tr:
+  page_title: 'Çeviri sözdizimi'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: Önbellekleme
+    body: 'Çeviri dosyaları, performansı korumak için çözülür ve önbelleğe alınır.'
+  domains:
+    title: 'Çeviri alanları'
+    body: 'Kısayollar, belirli bağlamlara göre çevirilere erişim sağlar.'
+    context:
+      layout: 'Tasarım ile ilgili (HTML meta etiketleri ve ana sayfa çerçevesi)'
+      page: 'Sayfa ile ilgili (sayfa gövdesi veya modal gibi)'
+  extends:
+    title: Uzantılar
+    body: |
+      Bir dosyadaki anahtarların çoğu başka bir dosyayla aynıysa, tüm anahtarları yeniden kullanmak ve yalnızca yeni olanları eklemek için <b>~extends</b> sözdizimini kullanmak daha basittir.
+  includes:
+    title: 'Dahil etmeler'
+    body: |
+      Bir çeviri dosyasında tekrar eden metni azaltmak önemlidir. Sihirli anahtarlar, bir dosyadan diğerine dahil etmeler yapmaya olanak tanır; iç sözdizimi <b>@folder.file::key.sub_key</b> kullanılır. <br><br> Eğer anahtar veya anahtar ağacı aynıysa, <b>%</b> anahtar kelimesi ile birleştirebilirsiniz.
+  javascript:
+    title: Javascript
+    body: "Çeviriler dinamik kullanım için Javascript'e aktarılabilir."
+    demo_text: 'Merhaba Javascript!'
+    test_button: 'Burada Test Et'
+
+ur:
+  page_title: 'ترجمے کی ترکیب'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: کیشنگ
+    body: 'کارکردگی کو برقرار رکھنے کے لیے ترجمے کی فائلیں حل کی جاتی ہیں اور کیش کی جاتی ہیں۔'
+  domains:
+    title: 'ترجمے کے ڈومینز'
+    body: 'شارٹ کٹس مخصوص سیاق و سباق کے لحاظ سے ترجموں تک رسائی فراہم کرتے ہیں۔'
+    context:
+      layout: 'لے آؤٹ کے لحاظ سے (HTML میٹا ٹیگ اور مرکزی صفحہ فریم)'
+      page: 'صفحے کے لحاظ سے (صفحے کا مواد یا ماڈل کی مثال کے طور پر)'
+  extends:
+    title: توسیعات
+    body: |
+      اگر کسی فائل میں زیادہ تر چابیاں دوسری کے ساتھ ایک جیسی ہیں تو <b>~extends</b> ترکیب کا استعمال کرکے تمام چابیوں کو دوبارہ استعمال کرنا اور صرف نئی چابیاں شامل کرنا آسان ہے۔
+  includes:
+    title: 'شامل کرنا'
+    body: |
+      ترجمے کی فائل میں دہرائی جانے والے متن کو کم کرنا اہم ہے۔ جادوئی چابیاں ایک فائل سے دوسری میں شامل کرنے کی اجازت دیتی ہیں، اندرونی ترکیب <b>@folder.file::key.sub_key</b> کا استعمال کرتے ہوئے۔ <br><br>اگر چابی یا چابی کا درخت ایک جیسا ہو تو آپ اسے <b>%</b> کلیدی لفظ کے ساتھ ملا سکتے ہیں۔
+  javascript:
+    title: 'جاوا اسکرپٹ'
+    body: 'ترجمے کو متحرک استعمال کے لیے جاوا اسکرپٹ میں منتقل کیا جا سکتا ہے۔'
+    demo_text: 'ہیلو جاوا اسکرپٹ!'
+    test_button: 'یہاں جانچیں'
+
+vi:
+  page_title: 'Cú pháp dịch'
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 'Lưu cache'
+    body: 'Các tệp dịch được giải quyết và lưu cache để bảo tồn hiệu suất.'
+  domains:
+    title: 'Miền dịch'
+    body: 'Các phím tắt cho phép truy cập vào các bản dịch liên quan đến một số ngữ cảnh nhất định.'
+    context:
+      layout: 'Liên quan đến bố cục (thẻ meta HTML và khung trang chính)'
+      page: 'Liên quan đến trang (nội dung trang hoặc hộp thoại chẳng hạn)'
+  extends:
+    title: 'Mở rộng'
+    body: |
+      Nếu hầu hết các khóa trong một tệp giống với một tệp khác, thì đơn giản hơn khi sử dụng cú pháp <b>~extends</b> để tái sử dụng tất cả các khóa và chỉ thêm những khóa mới.
+  includes:
+    title: 'Bao gồm'
+    body: |
+      Điều quan trọng là giảm thiểu văn bản trùng lặp trong một tệp dịch. Các khóa ma thuật cho phép bao gồm từ tệp này sang tệp khác bằng cách sử dụng cú pháp nội bộ <b>@folder.file::key.sub_key</b>. <br><br>Bạn có thể kết hợp nó với từ khóa <b>%</b> nếu khóa hoặc cây khóa giống nhau.
+  javascript:
+    title: Javascript
+    body: 'Các bản dịch có thể được truyền vào Javascript để sử dụng động.'
+    demo_text: 'Xin chào Javascript!'
+    test_button: 'Kiểm tra ở đây'
+
+zh:
+  page_title: 翻译语法
+  page_icon: 'ph:bold/brackets-curly'
+  cache:
+    title: 缓存
+    body: 翻译文件被解析并缓存以保持性能。
+  domains:
+    title: 翻译域
+    body: 快捷方式可以访问相对于某些上下文的翻译。
+    context:
+      layout: 相对于布局（HTML元标签和主页面框架）
+      page: 相对于页面（例如页面主体或模态）
+  extends:
+    title: 扩展
+    body: |
+      如果文件中的大多数键与另一个相同，使用<b>~extends</b>语法重用所有键并仅添加新键会更简单。
+  includes:
+    title: 包含
+    body: |
+      减少翻译文件中的重复文本很重要。魔法键允许使用内部语法<b>@folder.file::key.sub_key</b>从一个文件包含到另一个文件。 <br><br>如果键或键树相同，您可以将其与<b>%</b>关键字结合使用。
+  javascript:
+    title: Javascript
+    body: 翻译可以传递给Javascript以供动态使用。
+    demo_text: 你好Javascript！
+    test_button: 在这里测试
