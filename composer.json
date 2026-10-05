@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-translations-demo",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -13,9 +13,9 @@
     "php": ">=8.5",
     "wexample/symfony-content": "*",
     "wexample/symfony-design-system": ">=29.0.0",
-    "wexample/symfony-helpers": ">=14.0.0",
+    "wexample/symfony-helpers": ">=15.0.0",
     "wexample/symfony-loader": ">=20.0.0",
-    "wexample/symfony-translations": ">=8.0.0",
+    "wexample/symfony-translations": ">=9.0.0",
     "wexample/symfony-translations-ds": ">=2.0.0"
   },
   "repositories": [
