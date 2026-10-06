@@ -1,6 +1,6 @@
 # symfony-translations-demo
 
-Version: 2.0.8
+Version: 2.0.9
 
 Demo of wexample/symfony-translations: localized urls, interface and entity content translation
 
@@ -27,7 +27,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 - php: >=8.5
 - wexample/symfony-content: *
-- wexample/symfony-design-system: >=29.0.0
+- wexample/symfony-design-system: >=30.0.0
 - wexample/symfony-helpers: >=15.0.0
 - wexample/symfony-loader: >=20.0.0
 - wexample/symfony-translations: >=9.0.0
