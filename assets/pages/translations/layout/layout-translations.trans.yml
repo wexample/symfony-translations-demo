@@ -1,0 +1,9 @@
+en:
+  tab:
+    index: Overview
+    syntax: Syntax
+
+fr:
+  tab:
+    index: Vue d'ensemble
+    syntax: Syntaxe

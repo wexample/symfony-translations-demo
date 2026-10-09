@@ -1,0 +1,13 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- The demo's two pages, as the tabs of one: what translating looks like,
+    then the syntax a message is written in. -#}
+{%- block page_header -%}
+    {{ parent() }}
+    {{ page_tabs([
+        { label: 'WexampleSymfonyTranslationsDemoBundle.pages.translations.layout.layout-translations::tab.index', route: 'translations_demo_index' },
+        { label: 'WexampleSymfonyTranslationsDemoBundle.pages.translations.layout.layout-translations::tab.syntax', route: 'translations_demo_syntax' },
+    ], { back: false }) }}
+{%- endblock -%}
