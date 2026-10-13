@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-translations-demo",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "type": "library",
   "license": "MIT",
   "autoload": {
