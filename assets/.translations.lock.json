@@ -1021,6 +1021,196 @@
             "engine": "syrtis"
         }
     },
+    "pages/translations/layout/layout-translations.bn.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.de.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.es.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.fa.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.fi.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.he.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.hi.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.id.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.it.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.ja.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.ko.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.nl.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.pl.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.pt_BR.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.ru.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.th.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.tr.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.ur.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.vi.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
     "pages/translations/layout/layout-translations.zh.yml": {
         "tab.index": {
             "hash": "1e680f98c54c465c425776ba86912dad",

@@ -17,3 +17,98 @@ ar:
   tab:
     index: 'نظرة عامة'
     syntax: البنية
+
+hi:
+  tab:
+    index: सारांश
+    syntax: संरचना
+
+he:
+  tab:
+    index: סקירה
+    syntax: סינTax
+
+fa:
+  tab:
+    index: 'بررسی اجمالی'
+    syntax: نحو
+
+ur:
+  tab:
+    index: جائزہ
+    syntax: نحو
+
+ja:
+  tab:
+    index: 概要
+    syntax: 構文
+
+ko:
+  tab:
+    index: 개요
+    syntax: 구문
+
+bn:
+  tab:
+    index: পরিচিতি
+    syntax: সিনট্যাক্স
+
+th:
+  tab:
+    index: ภาพรวม
+    syntax: ไวยากรณ์
+
+de:
+  tab:
+    index: Übersicht
+    syntax: Syntax
+
+fi:
+  tab:
+    index: Yhteenveto
+    syntax: Syntaksi
+
+ru:
+  tab:
+    index: Обзор
+    syntax: Синтаксис
+
+pl:
+  tab:
+    index: Przegląd
+    syntax: Składnia
+
+es:
+  tab:
+    index: Resumen
+    syntax: Sintaxis
+
+it:
+  tab:
+    index: Panoramica
+    syntax: Sintassi
+
+pt_BR:
+  tab:
+    index: 'Visão geral'
+    syntax: Sintaxe
+
+tr:
+  tab:
+    index: 'Genel Bakış'
+    syntax: Sözdizimi
+
+vi:
+  tab:
+    index: 'Tổng quan'
+    syntax: 'Cú pháp'
+
+id:
+  tab:
+    index: Ikhtisar
+    syntax: Sintaksis
+
+nl:
+  tab:
+    index: Overzicht
+    syntax: Syntax
