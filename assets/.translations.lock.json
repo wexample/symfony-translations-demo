@@ -1011,6 +1011,26 @@
             "engine": "syrtis"
         }
     },
+    "pages/translations/layout/layout-translations.ar.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
+    "pages/translations/layout/layout-translations.zh.yml": {
+        "tab.index": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        },
+        "tab.syntax": {
+            "hash": "6aa069a0a46236b8dda36eca5e504f58",
+            "engine": "syrtis"
+        }
+    },
     "pages/translations/syntax.ar.yml": {
         "cache.body": {
             "hash": "aa9214d8b7ac98d66fa5797b213745b6",

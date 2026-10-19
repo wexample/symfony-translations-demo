@@ -7,3 +7,13 @@ fr:
   tab:
     index: Vue d'ensemble
     syntax: Syntaxe
+
+zh:
+  tab:
+    index: 概述
+    syntax: 语法
+
+ar:
+  tab:
+    index: 'نظرة عامة'
+    syntax: البنية
