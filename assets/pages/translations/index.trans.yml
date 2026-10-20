@@ -1,5 +1,6 @@
 en:
   page_title: Translations
+  document_title: "A website translated into 23 languages"
   page_description: "A site served in 23 languages: interface wording translated from YAML files, and content entities translated automatically on first read."
   page_icon: ph:bold/translate
   intro: >-
