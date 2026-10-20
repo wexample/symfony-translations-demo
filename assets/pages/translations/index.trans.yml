@@ -1,5 +1,6 @@
 en:
   page_title: Translations
+  page_description: "A site served in 23 languages: interface wording translated from YAML files, and content entities translated automatically on first read."
   page_icon: ph:bold/translate
   intro: >-
     This page is served under the language of its url. Its wording comes from the
@@ -19,6 +20,7 @@ en:
 
 ar:
   page_title: الترجمات
+  page_description: "موقع يُقدَّم بـ 23 لغة: نصوص الواجهة مترجمة من ملفات YAML، والمحتوى يُترجم تلقائيًا عند أول قراءة."
   page_icon: 'ph:bold/translate'
   intro: 'تُعرض هذه الصفحة بلغة عنوانها. نصها مستمد من ملفات yml، مترجمة باستخدام translations:translate-files؛ المقالات أدناه هي كيانات تحتوي على حقول #[Translatable] التي تُترجم عند القراءة الأولى وتُخزن.'
   locale:
@@ -35,6 +37,7 @@ ar:
 
 bn:
   page_title: অনুবাদসমূহ
+  page_description: "২৩টি ভাষায় পরিবেশিত সাইট: ইন্টারফেসের লেখা YAML ফাইল থেকে অনূদিত, আর বিষয়বস্তু প্রথমবার পড়ার সময় স্বয়ংক্রিয়ভাবে অনূদিত।"
   page_icon: 'ph:bold/translate'
   intro: 'এই পৃষ্ঠাটি এর ইউআরএল-এর ভাষার অধীনে পরিবেশন করা হয়। এর শব্দগুলো yml ফাইল থেকে এসেছে, যা translations:translate-files-এর মাধ্যমে অনুবাদিত; নিচের নিবন্ধগুলো হল এমন এন্টিটি যাদের #[Translatable] ক্ষেত্রগুলো প্রথম পড়ার সময় অনুবাদিত হয় এবং সংরক্ষিত হয়।'
   locale:
@@ -51,6 +54,7 @@ bn:
 
 de:
   page_title: Übersetzungen
+  page_description: "Eine Website in 23 Sprachen: Oberflächentexte aus YAML-Dateien übersetzt, Inhalte beim ersten Lesen automatisch übersetzt."
   page_icon: 'ph:bold/translate'
   intro: 'Diese Seite wird in der Sprache ihrer URL bereitgestellt. Ihre Formulierungen stammen aus den yml-Dateien, die mit translations:translate-files übersetzt wurden; die Artikel unten sind Entitäten, deren #[Translatable] Felder beim ersten Lesen übersetzt und gespeichert werden.'
   locale:
@@ -67,6 +71,7 @@ de:
 
 es:
   page_title: Traducciones
+  page_description: "Un sitio servido en 23 idiomas: los textos de la interfaz traducidos desde archivos YAML y los contenidos traducidos automáticamente en su primera lectura."
   page_icon: 'ph:bold/translate'
   intro: 'Esta página se sirve bajo el idioma de su URL. Su redacción proviene de los archivos yml, traducidos con translations:translate-files; los artículos a continuación son entidades cuyos campos #[Translatable] son traducidos en la primera lectura y almacenados.'
   locale:
@@ -83,6 +88,7 @@ es:
 
 fa:
   page_title: ترجمه‌ها
+  page_description: "سایتی به ۲۳ زبان: متن‌های رابط از فایل‌های YAML ترجمه شده‌اند و محتوا در نخستین خوانش به‌طور خودکار ترجمه می‌شود."
   page_icon: 'ph:bold/translate'
   intro: 'این صفحه تحت زبان آدرس خود ارائه می‌شود. متن آن از فایل‌های یمل آمده و با translations:translate-files ترجمه شده است؛ مقالات زیر موجودیت‌هایی هستند که فیلدهای #[Translatable] آنها در اولین خواندن ترجمه و ذخیره می‌شوند.'
   locale:
@@ -99,6 +105,7 @@ fa:
 
 fi:
   page_title: Käännökset
+  page_description: "Sivusto 23 kielellä: käyttöliittymän tekstit käännetty YAML-tiedostoista ja sisältö käännetään automaattisesti ensimmäisellä lukukerralla."
   page_icon: 'ph:bold/translate'
   intro: 'Tämä sivu tarjotaan sen URL-osoitteen kielellä. Sen teksti tulee yml-tiedostoista, jotka on käännetty translations:translate-files; alla olevat artikkelit ovat entiteettejä, joiden #[Translatable] kentät käännetään ensimmäisellä lukukerralla ja tallennetaan.'
   locale:
@@ -115,6 +122,7 @@ fi:
 
 fr:
   page_title: Traductions
+  page_description: "Un site servi en 23 langues : les textes de l'interface traduits depuis des fichiers YAML, et les contenus traduits automatiquement à leur première lecture."
   page_icon: 'ph:bold/translate'
   intro: 'Cette page est servie dans la langue de son URL. Sa formulation provient des fichiers yml, traduits avec translations:translate-files ; les articles ci-dessous sont des entités dont les champs #[Translatable] sont traduits lors de la première lecture et stockés.'
   locale:
@@ -131,6 +139,7 @@ fr:
 
 he:
   page_title: תרגומים
+  page_description: "אתר המוגש ב-23 שפות: נוסח הממשק מתורגם מקובצי YAML, ותוכן מתורגם אוטומטית בקריאה הראשונה."
   page_icon: 'ph:bold/translate'
   intro: 'דף זה מוצג בשפה של כתובת ה-URL שלו. הניסוח מגיע מקבצי yml, שתורגמו עם translations:translate-files; המאמרים למטה הם ישויות שדות #[Translatable] שלהן מתורגמים בקריאה הראשונה ומאוחסנים.'
   locale:
@@ -147,6 +156,7 @@ he:
 
 hi:
   page_title: अनुवाद
+  page_description: "23 भाषाओं में उपलब्ध साइट: इंटरफ़ेस के शब्द YAML फ़ाइलों से अनूदित, और सामग्री पहली बार पढ़े जाने पर स्वतः अनूदित।"
   page_icon: 'ph:bold/translate'
   intro: 'यह पृष्ठ इसके URL की भाषा के तहत प्रस्तुत किया गया है। इसका शब्दावली yml फ़ाइलों से आती है, जिन्हें translations:translate-files के साथ अनुवादित किया गया है; नीचे के लेख वे संस्थाएँ हैं जिनके #[Translatable] फ़ील्ड पहले पढ़ने पर अनुवादित होते हैं और संग्रहित होते हैं।'
   locale:
@@ -163,6 +173,7 @@ hi:
 
 id:
   page_title: Terjemahan
+  page_description: "Situs yang tersedia dalam 23 bahasa: teks antarmuka diterjemahkan dari berkas YAML, dan konten diterjemahkan otomatis saat pertama dibaca."
   page_icon: 'ph:bold/translate'
   intro: 'Halaman ini disajikan dalam bahasa sesuai url-nya. Kata-katanya berasal dari file yml, diterjemahkan dengan translations:translate-files; artikel di bawah ini adalah entitas yang bidang #[Translatable]nya diterjemahkan pada pembacaan pertama dan disimpan.'
   locale:
@@ -179,6 +190,7 @@ id:
 
 it:
   page_title: Traduzioni
+  page_description: "Un sito servito in 23 lingue: i testi dell'interfaccia tradotti da file YAML e i contenuti tradotti automaticamente alla prima lettura."
   page_icon: 'ph:bold/translate'
   intro: 'Questa pagina è servita nella lingua del suo URL. Il suo testo proviene dai file yml, tradotti con translations:translate-files; gli articoli qui sotto sono entità i cui campi #[Translatable] vengono tradotti alla prima lettura e memorizzati.'
   locale:
@@ -195,6 +207,7 @@ it:
 
 ja:
   page_title: 翻訳
+  page_description: "23言語で提供されるサイト。画面の文言は YAML ファイルから翻訳され、コンテンツは初回読み込み時に自動翻訳されます。"
   page_icon: 'ph:bold/translate'
   intro: 'このページはURLの言語で提供されています。文言はymlファイルから来ており、translations:translate-filesで翻訳されています。以下の記事は、最初の読みで翻訳された#[Translatable]フィールドを持つエンティティです。'
   locale:
@@ -211,6 +224,7 @@ ja:
 
 ko:
   page_title: 번역
+  page_description: "23개 언어로 제공되는 사이트: 인터페이스 문구는 YAML 파일에서 번역되고, 콘텐츠는 처음 읽힐 때 자동으로 번역됩니다."
   page_icon: 'ph:bold/translate'
   intro: '이 페이지는 URL의 언어에 따라 제공됩니다. 내용은 yml 파일에서 가져오며, translations:translate-files로 번역되었습니다. 아래의 항목들은 #[Translatable] 필드가 처음 읽을 때 번역되어 저장된 엔티티입니다.'
   locale:
@@ -227,6 +241,7 @@ ko:
 
 nl:
   page_title: Vertalingen
+  page_description: "Een site in 23 talen: interfaceteksten vertaald vanuit YAML-bestanden, en inhoud automatisch vertaald bij de eerste keer lezen."
   page_icon: 'ph:bold/translate'
   intro: 'Deze pagina wordt weergegeven in de taal van de url. De tekst komt uit de yml-bestanden, vertaald met translations:translate-files; de onderstaande artikelen zijn entiteiten waarvan de #[Translatable] velden bij de eerste lezing vertaald en opgeslagen worden.'
   locale:
@@ -243,6 +258,7 @@ nl:
 
 pl:
   page_title: Tłumaczenia
+  page_description: "Strona w 23 językach: teksty interfejsu tłumaczone z plików YAML, a treści tłumaczone automatycznie przy pierwszym odczycie."
   page_icon: 'ph:bold/translate'
   intro: 'Ta strona jest serwowana w języku zawartym w jej adresie URL. Jej treść pochodzi z plików yml, przetłumaczonych za pomocą translations:translate-files; artykuły poniżej to encje, których pola #[Translatable] są tłumaczone przy pierwszym odczycie i zapisywane.'
   locale:
@@ -259,6 +275,7 @@ pl:
 
 pt_BR:
   page_title: Traduções
+  page_description: "Um site servido em 23 idiomas: textos da interface traduzidos a partir de arquivos YAML e conteúdos traduzidos automaticamente na primeira leitura."
   page_icon: 'ph:bold/translate'
   intro: 'Esta página é servida no idioma de sua URL. Sua redação vem dos arquivos yml, traduzidos com translations:translate-files; os artigos abaixo são entidades cujos campos #[Translatable] são traduzidos na primeira leitura e armazenados.'
   locale:
@@ -275,6 +292,7 @@ pt_BR:
 
 ru:
   page_title: Переводы
+  page_description: "Сайт на 23 языках: тексты интерфейса переведены из YAML-файлов, а контент переводится автоматически при первом чтении."
   page_icon: 'ph:bold/translate'
   intro: 'Эта страница отображается на языке, указанном в её URL. Её текст взят из yml файлов, переведённых с помощью translations:translate-files; статьи ниже - это сущности, поля которых #[Translatable] переводятся при первом чтении и сохраняются.'
   locale:
@@ -291,6 +309,7 @@ ru:
 
 th:
   page_title: การแปล
+  page_description: "เว็บไซต์ที่ให้บริการ 23 ภาษา: ข้อความบนอินเทอร์เฟซแปลจากไฟล์ YAML และเนื้อหาแปลอัตโนมัติเมื่อถูกอ่านครั้งแรก"
   page_icon: 'ph:bold/translate'
   intro: 'หน้านี้ให้บริการในภาษาของ URL ของมัน คำต่างๆ มาจากไฟล์ yml ที่แปลด้วย translations:translate-files; บทความด้านล่างเป็นเอนทิตีที่ฟิลด์ #[Translatable] ถูกแปลในครั้งแรกที่อ่านและจัดเก็บไว้'
   locale:
@@ -307,6 +326,7 @@ th:
 
 tr:
   page_title: Çeviriler
+  page_description: "23 dilde sunulan bir site: arayüz metinleri YAML dosyalarından çevrilir, içerikler ilk okunduğunda otomatik olarak çevrilir."
   page_icon: 'ph:bold/translate'
   intro: "Bu sayfa, url'sinin dili altında sunulmaktadır. İçeriği yml dosyalarından gelmektedir, translations:translate-files ile çevrilmiştir; aşağıdaki makaleler, #[Translatable] alanlarının ilk okunuşta çevrildiği ve saklandığı varlıklardır."
   locale:
@@ -323,6 +343,7 @@ tr:
 
 ur:
   page_title: ترجمے
+  page_description: "23 زبانوں میں پیش کی جانے والی سائٹ: انٹرفیس کی عبارت YAML فائلوں سے ترجمہ شدہ، اور مواد پہلی بار پڑھنے پر خودکار ترجمہ۔"
   page_icon: 'ph:bold/translate'
   intro: 'یہ صفحہ اس کی یو آر ایل کی زبان کے تحت پیش کی جاتی ہے۔ اس کا متن yml فائلوں سے آیا ہے، جسے translations:translate-files کے ساتھ ترجمہ کیا گیا ہے؛ نیچے دیئے گئے مضامین وہ ہستیاں ہیں جن کے #[Translatable] فیلڈز پہلے پڑھنے پر ترجمہ کیے جاتے ہیں اور محفوظ کیے جاتے ہیں۔'
   locale:
@@ -339,6 +360,7 @@ ur:
 
 vi:
   page_title: Dịch
+  page_description: "Một trang web phục vụ bằng 23 ngôn ngữ: chữ trên giao diện được dịch từ tệp YAML, nội dung được dịch tự động ở lần đọc đầu tiên."
   page_icon: 'ph:bold/translate'
   intro: 'Trang này được phục vụ theo ngôn ngữ của url. Nội dung của nó đến từ các tệp yml, được dịch bằng translations:translate-files; các bài viết dưới đây là các thực thể có các trường #[Translatable] được dịch khi đọc lần đầu và được lưu trữ.'
   locale:
@@ -355,6 +377,7 @@ vi:
 
 zh:
   page_title: 翻译
+  page_description: "以 23 种语言提供的网站：界面文案由 YAML 文件翻译，内容实体在首次读取时自动翻译。"
   page_icon: 'ph:bold/translate'
   intro: '此页面根据其网址提供语言。其措辞来自yml文件，通过translations:translate-files进行翻译；下面的文章是其#[Translatable]字段在首次阅读时翻译并存储的实体。'
   locale:
