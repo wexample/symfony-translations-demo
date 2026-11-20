@@ -1,6 +1,6 @@
 # symfony-translations-demo
 
-Version: 2.0.37
+Version: 2.0.38
 
 Demo of wexample/symfony-translations: localized urls, interface and entity content translation
 
